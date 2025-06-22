@@ -1,0 +1,4 @@
+{
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "material-icon-theme.activeIconPack": "react"
+}

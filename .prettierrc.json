@@ -1,3 +1,30 @@
 {
-  "plugins": ["prettier-plugin-tailwindcss"]
+  "trailingComma": "all",
+  "importOrder": [
+    "<BUILTIN_MODULES>",
+    "^react(/.*)?$",
+    "^next(/.*)?$",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^@oi-auth/",
+    "",
+    "^@/types/",
+    "^@/config/",
+    "^@/lib/",
+    "^@/hooks/",
+    "^@/components/ui/",
+    "^@/components/",
+    "^@/registry/",
+    "^@/styles/",
+    "^@/app/",
+    "^@/www/",
+    "",
+    "^[.]"
+  ],
+  "importOrderTypeScriptVersion": "5.8.3",
+  "tailwindStylesheet": "./apps/web/src/app/globals.css",
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ]
 }

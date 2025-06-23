@@ -1,0 +1,28 @@
+{
+  "name": "@oi-auth/db",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev --skip-generate",
+    "db:deploy": "prisma migrate deploy"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.10.1"
+  },
+  "devDependencies": {
+    "@oi-auth/eslint-config": "workspace:*",
+    "@oi-auth/typescript-config": "workspace:*",
+    "@types/node": "^20.19.1",
+    "eslint": "^9.29.0",
+    "prisma": "^6.10.1",
+    "typescript": "^5.8.3"
+  }
+}

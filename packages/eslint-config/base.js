@@ -8,7 +8,7 @@ import tseslint from "typescript-eslint";
  */
 export const config = (dirname) =>
   tseslint.config(
-    { ignores: ["**/dist/"] },
+    { ignores: ["**/dist/", "**/generated/"] },
     eslint.configs.recommended,
     tseslint.configs.strictTypeChecked,
     tseslint.configs.stylisticTypeChecked,

@@ -24,12 +24,12 @@
     "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
-    "@oi-auth/eslint-config": "workspace:*",
     "@oi-auth/typescript-config": "workspace:*",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@wangxinhe/eslint-config": "^0.2.0",
     "eslint": "^9",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.4",

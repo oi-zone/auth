@@ -1,3 +1,3 @@
-import { config } from "@oi-auth/eslint-config/base";
+import { config } from "@wangxinhe/eslint-config/base";
 
 export default config(import.meta.dirname);

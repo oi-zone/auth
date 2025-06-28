@@ -1,3 +1,3 @@
-import { config } from "@oi-auth/eslint-config/next-js";
+import { config } from "@wangxinhe/eslint-config/next";
 
 export default config(import.meta.dirname);

@@ -17,12 +17,12 @@
   },
   "dependencies": {
     "@oi-auth/db": "workspace:*",
-    "better-auth": "^1.2.10"
+    "better-auth": "^1.2.12"
   },
   "devDependencies": {
     "@oi-auth/typescript-config": "workspace:*",
     "@wangxinhe/eslint-config": "^0.2.0",
-    "eslint": "^9.29.0",
+    "eslint": "^9.30.0",
     "typescript": "^5.8.3"
   }
 }
